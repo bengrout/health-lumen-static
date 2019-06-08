@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Avenir Book';
+  src: url('../fonts/webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/webfont.ttf')  format('truetype');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Avenir Black';
+  src: url('../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf')  format('truetype');
+  font-display: fallback;
+}

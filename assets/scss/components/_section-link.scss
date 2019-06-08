@@ -1,0 +1,37 @@
+.section-link {
+	background-image: url('../img/halfpattern.svg'), linear-gradient(90deg, #00AFAA 0%, #8AD7D5 100%);
+	background-repeat: no-repeat;
+	background-position: right, left;
+	background-size: auto 100%, auto;
+	padding: 2rem 1rem;
+	color: $white;
+
+	&--alpha {
+		background-image: url('../img/halfpattern-alpha.svg'), linear-gradient(90deg, #00AFAA 0%, #8AD7D5 100%);		
+	}
+
+	&--beta {
+		background-image: url('../img/halfpattern-beta.svg'), linear-gradient(90deg, #00AFAA 0%, #8AD7D5 100%);		
+	}	
+
+	.section-link__content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-items: flex-end;	
+
+		.section-link__title {
+			width: 100%;
+			font-size: $h2-font-size;
+		}
+
+		.section-link__text {
+			max-width: 60%;
+		}
+
+		.section-link__button {
+			min-width: 260px;
+		}		
+	}
+}
+

@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-display;
+}
+
+h2 {
+	color: $primary;
+}
+
+h4 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: $font-family-base;
+	margin-bottom: 1.5rem;
+}
+
+h5, h6 {
+	text-transform: uppercase;
+	color: $black;
+	font-size: 0.75rem;
+}
+
+.btn {
+	text-transform: uppercase;
+}

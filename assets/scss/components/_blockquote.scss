@@ -1,0 +1,17 @@
+.blockquote {
+	font-weight: bold;
+	color: $primary;
+	text-align: center;
+	max-width: 400px;
+	padding: calc(85px + 1rem) 1rem 1rem;
+	float: right;
+	margin-right: -50%;
+	background-image: url('../img/device.svg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 76px 85px;
+}
+
+.col-lg-10 .blockquote {
+	margin-right: -16%;
+}

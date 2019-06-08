@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="183px" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="halfpattern" transform="translate(0.000000, -4.000000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#66CBC7" points="80.78 187.98 116.31 187.98 37.76 0 2.23 0"></polygon>
+            <polygon id="Path" fill="#00B7B2" points="43.53 189.21 0 189.21 77.35 1.19 120.88 1.19"></polygon>
+            <polygon id="Path" fill="#2DBFBA" points="115.76 187.98 155.51 187.98 76.96 0 37.21 0"></polygon>
+            <polygon id="Path" fill="#00B7B2" points="139.8 189.21 76.91 189.21 154.26 1.19 217.15 1.19"></polygon>
+            <polygon id="Path" fill="#00B7B2" points="157.7 189.21 94.81 189.21 172.16 1.19 235.05 1.19"></polygon>
+        </g>
+    </g>
+</svg>

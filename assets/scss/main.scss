@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
-.bg-mid {
-	background-color: #eaeaea;
-}
+@import 'fonts';
+@import 'typography';
+
+@import 'components/jumbotron',
+		'components/page-header',
+		'components/navbar',
+		'components/illuminate',
+		'components/section-link',
+		'components/blog-preview',
+		'components/swoosh',
+		'components/site-footer',
+		'components/blockquote';
+
 
 .carousel-control-prev-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300AFAA' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -16,8 +26,4 @@
 .carousel-control-prev-icon, .carousel-control-next-icon {
 	width: 30px;
 	height: 30px;
-}
-
-.card-deck {
-	padding: 0 15px;
 }
