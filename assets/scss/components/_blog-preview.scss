@@ -9,3 +9,9 @@
 		padding: 1rem;
 	}
 }
+
+.post-image {
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+	}
+}

@@ -27,10 +27,19 @@
 
 		.section-link__text {
 			max-width: 60%;
+
+			@include media-breakpoint-down(md) {
+				max-width: 100%;
+			}
 		}
 
 		.section-link__button {
 			min-width: 260px;
+
+			@include media-breakpoint-down(md) {
+				max-width: 100%;
+				width: 100%;
+			}
 		}		
 	}
 }

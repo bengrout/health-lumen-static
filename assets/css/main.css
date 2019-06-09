@@ -9789,8 +9789,19 @@ h5, h6 {
 .section-link .section-link__content .section-link__text {
   max-width: 60%;
 }
+@media (max-width: 991.98px) {
+  .section-link .section-link__content .section-link__text {
+    max-width: 100%;
+  }
+}
 .section-link .section-link__content .section-link__button {
   min-width: 260px;
+}
+@media (max-width: 991.98px) {
+  .section-link .section-link__content .section-link__button {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .blog-preview {
@@ -9801,6 +9812,12 @@ h5, h6 {
 }
 .blog-preview .card-body {
   padding: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .post-image {
+    width: 100%;
+  }
 }
 
 .swoosh {
@@ -9832,9 +9849,20 @@ h5, h6 {
   background-position: center top;
   background-size: 76px 85px;
 }
+@media (max-width: 991.98px) {
+  .blockquote {
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
 
 .col-lg-10 .blockquote {
   margin-right: -16%;
+}
+@media (max-width: 991.98px) {
+  .col-lg-10 .blockquote {
+    margin-right: 0;
+  }
 }
 
 .carousel-control-prev-icon {
