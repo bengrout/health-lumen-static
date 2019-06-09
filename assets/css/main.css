@@ -9690,6 +9690,11 @@ h5, h6 {
   color: #000;
   font-size: 0.75rem;
 }
+@media (max-width: 767.98px) {
+  h5, h6 {
+    font-size: 0.9rem;
+  }
+}
 
 .btn {
   text-transform: uppercase;
@@ -9817,6 +9822,7 @@ h5, h6 {
 @media (max-width: 575.98px) {
   .post-image {
     width: 100%;
+    margin-bottom: 1rem;
   }
 }
 
@@ -9826,6 +9832,11 @@ h5, h6 {
   background-size: 101vw 10vw;
   background-position: 0 -1.5%;
   padding-top: calc(10vw + 2rem);
+}
+@media (max-width: 767.98px) {
+  .swoosh {
+    background-position: 0 0;
+  }
 }
 .swoosh--light {
   background-image: url("../img/angle-top-light.svg");
