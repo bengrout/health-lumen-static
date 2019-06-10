@@ -56,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Avenir Book", Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
   color: #64645D;
@@ -363,19 +363,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.8125rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.96875rem;
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.6875rem;
 }
 
 h5, .h5 {
@@ -383,11 +383,11 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   font-weight: 300;
 }
 
@@ -458,7 +458,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
 }
 
 .blockquote-footer {
@@ -1817,7 +1817,7 @@ pre code {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -1874,14 +1874,14 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1.5;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
 }
 
@@ -1905,7 +1905,7 @@ select.form-control:focus::-ms-value {
 .form-control-sm {
   height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -1913,7 +1913,7 @@ select.form-control:focus::-ms-value {
 .form-control-lg {
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -1995,7 +1995,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
@@ -2106,7 +2106,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
@@ -2268,7 +2268,7 @@ textarea.form-control {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   border-radius: 0.125rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2730,14 +2730,14 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -2818,7 +2818,7 @@ input[type=button].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #64645D;
   text-align: left;
   list-style: none;
@@ -3006,7 +3006,7 @@ input[type=button].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -3219,7 +3219,7 @@ input[type=button].btn-block {
   align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3246,7 +3246,7 @@ input[type=button].btn-block {
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -3263,7 +3263,7 @@ input[type=button].btn-block {
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -3296,7 +3296,7 @@ input[type=button].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 1.5rem;
+  min-height: 1.6875rem;
   padding-left: 1.5rem;
 }
 
@@ -3340,7 +3340,7 @@ input[type=button].btn-block {
 }
 .custom-control-label::before {
   position: absolute;
-  top: 0.25rem;
+  top: 0.34375rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -3352,7 +3352,7 @@ input[type=button].btn-block {
 }
 .custom-control-label::after {
   position: absolute;
-  top: 0.25rem;
+  top: 0.34375rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -3401,7 +3401,7 @@ input[type=button].btn-block {
   border-radius: 0.5rem;
 }
 .custom-switch .custom-control-label::after {
-  top: calc(0.25rem + 2px);
+  top: calc(0.34375rem + 2px);
   left: calc(-2.25rem + 2px);
   width: calc(1rem - 4px);
   height: calc(1rem - 4px);
@@ -3427,7 +3427,7 @@ input[type=button].btn-block {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3465,7 +3465,7 @@ input[type=button].btn-block {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
 }
 
 .custom-select-lg {
@@ -3473,7 +3473,7 @@ input[type=button].btn-block {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
 }
 
 .custom-file {
@@ -3777,10 +3777,10 @@ input[type=button].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.2890625rem;
+  padding-bottom: 0.2890625rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -3818,7 +3818,7 @@ input[type=button].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4381,7 +4381,7 @@ input[type=button].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1.5;
 }
 .pagination-lg .page-item:first-child .page-link {
@@ -4395,7 +4395,7 @@ input[type=button].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   line-height: 1.5;
 }
 .pagination-sm .page-item:first-child .page-link {
@@ -4582,7 +4582,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-dismissible {
-  padding-right: 4rem;
+  padding-right: 4.1875rem;
 }
 .alert-dismissible .close {
   position: absolute;
@@ -4700,7 +4700,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 0.75rem;
+  font-size: 0.84375rem;
   background-color: #e9ecef;
   border-radius: 0.125rem;
 }
@@ -5025,7 +5025,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 1.6875rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -5300,7 +5300,7 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -5402,7 +5402,7 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.984375rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -5511,7 +5511,7 @@ a.close.disabled {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -7074,7 +7074,7 @@ button.bg-dark:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow {
+.shadow, .section-link:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -9688,7 +9688,10 @@ h4 {
 h5, h6 {
   text-transform: uppercase;
   color: #000;
-  font-size: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Avenir Book", Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
 @media (max-width: 767.98px) {
   h5, h6 {
@@ -9716,7 +9719,12 @@ h5, h6 {
   margin-bottom: 3rem;
   padding-bottom: 5vw;
   color: #fff;
-  padding-top: 6rem;
+  padding-top: 4rem;
+}
+@media (max-width: 767.98px) {
+  .page-header {
+    padding-top: 0;
+  }
 }
 .page-header--frontpage {
   background-image: url("../img/angle-bottom.svg"), url("../img/pattern-light.svg");
@@ -9724,7 +9732,8 @@ h5, h6 {
   padding-top: 0;
 }
 .page-header a {
-  color: #64645D;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .navbar {
@@ -9733,9 +9742,18 @@ h5, h6 {
 .navbar .nav-item.active .nav-link {
   color: #64645D;
 }
+.navbar .navbar-brand {
+  transition: transform 0.2s;
+}
+.navbar .navbar-brand:hover {
+  transform: scale(1.03);
+}
 
 .illuminate {
   position: relative;
+}
+.illuminate:hover::after {
+  bottom: -16px;
 }
 .illuminate::after {
   display: block;
@@ -9748,6 +9766,7 @@ h5, h6 {
   position: absolute;
   bottom: -24px;
   left: 0;
+  transition: bottom 0.2s, background-size 0.2s;
 }
 .illuminate--gutter::after {
   margin-left: 1.25rem;
@@ -9774,6 +9793,13 @@ h5, h6 {
   background-size: auto 100%, auto;
   padding: 2rem 1rem;
   color: #fff;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s;
+}
+.section-link:hover {
+  transform: scale(1.01);
+}
+.section-link:hover::after {
+  background-size: 15px 10px;
 }
 .section-link--alpha {
   background-image: url("../img/halfpattern-alpha.svg"), linear-gradient(90deg, #00AFAA 0%, #8AD7D5 100%);
@@ -9789,7 +9815,7 @@ h5, h6 {
 }
 .section-link .section-link__content .section-link__title {
   width: 100%;
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 .section-link .section-link__content .section-link__text {
   max-width: 60%;
@@ -9812,11 +9838,20 @@ h5, h6 {
 .blog-preview {
   border: 1px solid #00AEAA;
 }
+@media (max-width: 767.98px) {
+  .blog-preview {
+    margin-bottom: 2.5rem !important;
+  }
+}
 .blog-preview__link {
   text-transform: uppercase;
 }
 .blog-preview .card-body {
   padding: 1rem;
+}
+
+.post-list__post {
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 575.98px) {
@@ -9826,11 +9861,22 @@ h5, h6 {
   }
 }
 
+.post-meta {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.post-meta__item::after {
+  content: "///";
+  display: inline-block;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
 .swoosh {
   background-image: url("../img/angle-top.svg");
   background-repeat: no-repeat;
   background-size: 101vw 10vw;
-  background-position: 0 -1.5%;
+  background-position: 0 0;
   padding-top: calc(10vw + 2rem);
 }
 @media (max-width: 767.98px) {
@@ -9887,6 +9933,25 @@ h5, h6 {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 30px;
   height: 30px;
+}
+
+@keyframes color_change {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#A, #M {
+  fill: #00AEAA;
+  animation: color_change 6s 1;
+}
+
+@media (max-width: 767.98px) {
+  .big-logo {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

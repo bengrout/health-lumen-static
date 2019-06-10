@@ -2,7 +2,7 @@
 	background-image: url('../img/angle-top.svg');
 	background-repeat: no-repeat;
 	background-size: 101vw 10vw;
-	background-position: 0 -1.5%;
+	background-position: 0 0;
 	padding-top: calc(10vw + 2rem);
 
 	@include media-breakpoint-down(sm) {

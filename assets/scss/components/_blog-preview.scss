@@ -1,6 +1,10 @@
 .blog-preview {
 	border: 1px solid $primary;
 
+	@include media-breakpoint-down(sm) {
+		margin-bottom: 2.5rem !important;
+	}
+
 	&__link {
 		text-transform: uppercase;
 	}
@@ -10,9 +14,29 @@
 	}
 }
 
+.post-list {
+	&__post {
+		margin-bottom: 5rem;
+	}
+}
+
 .post-image {
 	@include media-breakpoint-down(xs) {
 		width: 100%;
 		margin-bottom: 1rem;
+	}
+}
+
+.post-meta {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.9rem;
+
+	&__item {
+		&::after {
+			content: "///";
+			display: inline-block;
+			margin: 0 0.5rem 0 0.5rem;
+		}		
 	}
 }

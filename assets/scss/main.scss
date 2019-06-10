@@ -27,3 +27,19 @@
 	width: 30px;
 	height: 30px;
 }
+
+@keyframes color_change {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+#A, #M {
+	fill: #00AEAA;
+	animation: color_change 6s 1;
+}
+
+.big-logo {
+	@include media-breakpoint-down(sm) {
+		width: 100%;
+	}
+}

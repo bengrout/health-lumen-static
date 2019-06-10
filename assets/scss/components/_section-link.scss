@@ -5,6 +5,16 @@
 	background-size: auto 100%, auto;
 	padding: 2rem 1rem;
 	color: $white;
+	transition: box-shadow 0.2s ease-in-out, transform 0.2s;
+
+	&:hover {
+		@extend .shadow;
+		transform: scale(1.01);
+
+		&::after {
+			background-size: 15px 10px;
+		}
+	}
 
 	&--alpha {
 		background-image: url('../img/halfpattern-alpha.svg'), linear-gradient(90deg, #00AFAA 0%, #8AD7D5 100%);		

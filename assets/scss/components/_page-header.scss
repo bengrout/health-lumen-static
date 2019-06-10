@@ -6,7 +6,11 @@
 	margin-bottom: 3rem;
 	padding-bottom: 5vw;
 	color: $white;
-	padding-top: 6rem;
+	padding-top: 4rem;
+
+	@include media-breakpoint-down(sm) {
+		padding-top: 0;
+	}
 
 	&--frontpage {
 		background-image: url('../img/angle-bottom.svg'), url('../img/pattern-light.svg');
@@ -15,6 +19,7 @@
 	}
 
 	a {
-		color: $secondary;
+		color: $white;
+		text-decoration: underline;
 	}
 }

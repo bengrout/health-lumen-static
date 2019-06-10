@@ -4,4 +4,12 @@
 	.nav-item.active .nav-link {
 		color: $secondary;
 	}
+
+	.navbar-brand {
+		transition: transform 0.2s;
+	}
+
+	.navbar-brand:hover {
+		transform: scale(1.03);
+	}
 }
