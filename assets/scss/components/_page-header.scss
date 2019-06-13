@@ -5,16 +5,14 @@
 	background-position: 0 101%, bottom;
 	margin-bottom: 3rem;
 	padding-bottom: 5vw;
-	color: $white;
-	padding-top: 4rem;
+	color: $gray-700;
+	padding-top: 3rem;
 
 	@include media-breakpoint-down(sm) {
 		padding-top: 0;
 	}
 
 	&--frontpage {
-		background-image: url('../img/angle-bottom.svg'), url('../img/pattern-light.svg');
-		color: $secondary;
 		padding-top: 0;
 	}
 

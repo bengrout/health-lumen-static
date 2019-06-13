@@ -1,6 +1,4 @@
 .blog-preview {
-	border: 1px solid $primary;
-
 	@include media-breakpoint-down(sm) {
 		margin-bottom: 2.5rem !important;
 	}
@@ -17,6 +15,13 @@
 .post-list {
 	&__post {
 		margin-bottom: 5rem;
+
+		h5 {
+			@include media-breakpoint-up(lg) {
+				width: 75%;
+				line-height: 1.5;
+			}
+		}
 	}
 }
 

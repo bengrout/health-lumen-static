@@ -1,5 +1,6 @@
 .navbar {
 	text-transform: uppercase;
+	padding-left: 0;
 
 	.nav-item.active .nav-link {
 		color: $secondary;
@@ -7,6 +8,12 @@
 
 	.navbar-brand {
 		transition: transform 0.2s;
+
+		img {
+			@include media-breakpoint-down(xs) {
+				height: 60px;
+			} 
+		}
 	}
 
 	.navbar-brand:hover {
