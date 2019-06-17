@@ -1,7 +1,6 @@
 .blockquote {
 	font-weight: bold;
 	color: $primary;
-	text-align: center;
 	max-width: 400px;
 	padding: calc(85px + 1rem) 2rem 1rem;
 	float: right;
@@ -10,6 +9,26 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 76px 85px;
+
+	@include media-breakpoint-down(md) {
+		text-align: center;
+	}
+	
+	.mask {
+		@include media-breakpoint-up(lg) {
+			display: block;
+			content: "";
+			width: 123px;
+			height: 291px;
+			shape-outside: polygon(0 0, 123px 0, 0 291px);
+			float: left;
+		}
+	}
+
+	.mask + p {
+		position: relative;
+		left: -5px;
+	}
 
 	@include media-breakpoint-down(md) {
 		margin-right: 0;

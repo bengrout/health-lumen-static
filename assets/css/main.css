@@ -7070,11 +7070,11 @@ button.bg-dark:focus {
   white-space: normal;
 }
 
-.shadow-sm, .section-link:hover {
+.shadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow {
+.shadow, .section-link:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -9718,7 +9718,7 @@ h5, h6 {
   background-position: 0 101%, bottom;
   margin-bottom: 3rem;
   padding-bottom: 5vw;
-  color: #404040;
+  color: #fff;
   padding-top: 3rem;
 }
 @media (max-width: 767.98px) {
@@ -9903,7 +9903,6 @@ h5, h6 {
 .blockquote {
   font-weight: bold;
   color: #00AEAA;
-  text-align: center;
   max-width: 400px;
   padding: calc(85px + 1rem) 2rem 1rem;
   float: right;
@@ -9912,6 +9911,25 @@ h5, h6 {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 76px 85px;
+}
+@media (max-width: 991.98px) {
+  .blockquote {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  .blockquote .mask {
+    display: block;
+    content: "";
+    width: 123px;
+    height: 291px;
+    shape-outside: polygon(0 0, 123px 0, 0 291px);
+    float: left;
+  }
+}
+.blockquote .mask + p {
+  position: relative;
+  left: -5px;
 }
 @media (max-width: 991.98px) {
   .blockquote {
