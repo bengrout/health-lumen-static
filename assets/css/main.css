@@ -9705,7 +9705,7 @@ h5, h6 {
 
 .jumbotron {
   margin-bottom: 0;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
 }
 .jumbotron h1 {
   font-family: "Avenir Book", Helvetica, sans-serif;
@@ -9911,11 +9911,10 @@ h5, h6 {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 76px 85px;
+  text-align: center;
 }
-@media (max-width: 991.98px) {
-  .blockquote {
-    text-align: center;
-  }
+.blockquote p {
+  margin-bottom: 0;
 }
 @media (min-width: 992px) {
   .blockquote .mask {
@@ -9930,6 +9929,7 @@ h5, h6 {
 .blockquote .mask + p {
   position: relative;
   left: -5px;
+  text-align: left;
 }
 @media (max-width: 991.98px) {
   .blockquote {

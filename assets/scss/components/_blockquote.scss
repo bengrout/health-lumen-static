@@ -9,9 +9,10 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 76px 85px;
+	text-align: center;
 
-	@include media-breakpoint-down(md) {
-		text-align: center;
+	p {
+		margin-bottom: 0;
 	}
 	
 	.mask {
@@ -28,6 +29,7 @@
 	.mask + p {
 		position: relative;
 		left: -5px;
+		text-align: left;
 	}
 
 	@include media-breakpoint-down(md) {
