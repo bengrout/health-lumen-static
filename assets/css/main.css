@@ -9661,16 +9661,18 @@ h3 {
   /* IE9 Compat Modes */
   src: url("../fonts/webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/webfont.woff2") format("woff2"), url("../fonts/webfont.woff") format("woff"), url("../fonts/webfont.ttf") format("truetype");
   font-display: fallback;
+  font-weight: 400;
 }
 @font-face {
-  font-family: "Avenir Black";
+  font-family: "Avenir Book";
   src: url("../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix") format("embedded-opentype"), url("../fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2") format("woff2"), url("../fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff") format("woff"), url("../fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf") format("truetype");
   font-display: fallback;
+  font-weight: 700;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Avenir Black", Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 h2 {
@@ -9703,6 +9705,11 @@ h5, h6 {
   text-transform: uppercase;
 }
 
+@media (max-width: 767.98px) {
+  .display-3 {
+    font-size: 2.25rem;
+  }
+}
 .jumbotron {
   margin-bottom: 0;
   padding: 0 0 2rem 0;
@@ -9715,7 +9722,7 @@ h5, h6 {
   background-image: url("../img/angle-bottom.svg"), url("../img/pattern.svg");
   background-repeat: no-repeat;
   background-size: 101vw 10vw, cover;
-  background-position: 0 101%, bottom;
+  background-position: 0 102%, bottom;
   margin-bottom: 3rem;
   padding-bottom: 5vw;
   color: #fff;
@@ -9723,7 +9730,7 @@ h5, h6 {
 }
 @media (max-width: 767.98px) {
   .page-header {
-    padding-top: 0;
+    padding-top: 1rem;
   }
 }
 .page-header--frontpage {
@@ -9773,8 +9780,8 @@ h5, h6 {
   bottom: -16px;
 }
 .illuminate--gutter::after {
-  margin-left: 1.25rem;
-  width: calc(100% - 2.5rem);
+  margin-left: 15px;
+  width: calc(100% - 30px);
 }
 .illuminate--tight::after {
   bottom: -16px;
@@ -9945,6 +9952,38 @@ h5, h6 {
   .col-lg-10 .blockquote {
     margin-right: 0;
   }
+}
+
+.question-grid__cell {
+  text-align: center;
+  padding: 2rem;
+}
+.question-grid__cell:before {
+  display: block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  margin: 0 auto 1rem;
+  background-image: url("data:image/svg+xml,%3Csvg id='Capa_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 92 92'%3E%3Cpath d='M45 0a46 46 0 1 0 2 92 46 46 0 0 0-2-92zm0 74c-4 0-7-3-7-7 1-4 3-6 7-6s7 3 7 7c0 3-3 6-7 6zm17-33l-6 5-3 2-2 4-1 3H39v-1l2-8 8-6 2-2 2-4-2-5c-1-1-2-2-5-2s-4 1-5 3l-2 5v1H28v-1c0-7 3-11 7-14 3-2 6-3 11-3s9 1 13 4c4 2 5 6 5 11l-2 8z' fill='%2300AEAA'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+.question-grid__cell--highlighted {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00AEAA;
+  background-color: #DCE5E5;
+  border-radius: 0.125rem;
+  color: #00AEAA;
+  font-weight: bold;
+}
+@media (max-width: 767.98px) {
+  .question-grid__cell--highlighted {
+    background: none;
+  }
+}
+.question-grid__cell--highlighted:before {
+  display: none;
 }
 
 .carousel-control-prev-icon {

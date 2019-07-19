@@ -2,14 +2,14 @@
 	background-image: url('../img/angle-bottom.svg'), url('../img/pattern.svg');
 	background-repeat: no-repeat;
 	background-size: 101vw 10vw, cover;
-	background-position: 0 101%, bottom;
+	background-position: 0 102%, bottom;
 	margin-bottom: 3rem;
 	padding-bottom: 5vw;
 	color: $white;
 	padding-top: 3rem;
 
 	@include media-breakpoint-down(sm) {
-		padding-top: 0;
+		padding-top: 1rem;
 	}
 
 	&--frontpage {
