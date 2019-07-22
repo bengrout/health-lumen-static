@@ -9716,6 +9716,7 @@ h5, h6 {
 }
 .jumbotron h1 {
   font-family: "Avenir Book", Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .page-header {
@@ -9827,6 +9828,7 @@ h5, h6 {
 .section-link .section-link__content .section-link__title {
   width: 100%;
   font-size: 2.25rem;
+  font-weight: 400;
 }
 .section-link .section-link__content .section-link__text {
   max-width: 60%;
